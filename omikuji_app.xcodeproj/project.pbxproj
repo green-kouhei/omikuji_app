@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4876CF4E1D07D2DE006EB9BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF4D1D07D2DE006EB9BA /* AppDelegate.swift */; };
+		4876CF501D07D2DE006EB9BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF4F1D07D2DE006EB9BA /* ViewController.swift */; };
+		4876CF531D07D2DE006EB9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4876CF511D07D2DE006EB9BA /* Main.storyboard */; };
+		4876CF551D07D2DE006EB9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4876CF541D07D2DE006EB9BA /* Assets.xcassets */; };
+		4876CF581D07D2DE006EB9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4876CF561D07D2DE006EB9BA /* LaunchScreen.storyboard */; };
+		4876CF631D07D2DE006EB9BA /* omikuji_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF621D07D2DE006EB9BA /* omikuji_appTests.swift */; };
+		4876CF6E1D07D2DE006EB9BA /* omikuji_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF6D1D07D2DE006EB9BA /* omikuji_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4876CF5F1D07D2DE006EB9BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4876CF421D07D2DE006EB9BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4876CF491D07D2DE006EB9BA;
+			remoteInfo = omikuji_app;
+		};
+		4876CF6A1D07D2DE006EB9BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4876CF421D07D2DE006EB9BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4876CF491D07D2DE006EB9BA;
+			remoteInfo = omikuji_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4876CF4A1D07D2DE006EB9BA /* omikuji_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omikuji_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4876CF4D1D07D2DE006EB9BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4876CF4F1D07D2DE006EB9BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4876CF521D07D2DE006EB9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4876CF541D07D2DE006EB9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4876CF571D07D2DE006EB9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4876CF591D07D2DE006EB9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4876CF5E1D07D2DE006EB9BA /* omikuji_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omikuji_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4876CF621D07D2DE006EB9BA /* omikuji_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikuji_appTests.swift; sourceTree = "<group>"; };
+		4876CF641D07D2DE006EB9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4876CF691D07D2DE006EB9BA /* omikuji_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omikuji_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4876CF6D1D07D2DE006EB9BA /* omikuji_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikuji_appUITests.swift; sourceTree = "<group>"; };
+		4876CF6F1D07D2DE006EB9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4876CF471D07D2DE006EB9BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4876CF5B1D07D2DE006EB9BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4876CF661D07D2DE006EB9BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4876CF411D07D2DE006EB9BA = {
+			isa = PBXGroup;
+			children = (
+				4876CF4C1D07D2DE006EB9BA /* omikuji_app */,
+				4876CF611D07D2DE006EB9BA /* omikuji_appTests */,
+				4876CF6C1D07D2DE006EB9BA /* omikuji_appUITests */,
+				4876CF4B1D07D2DE006EB9BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4876CF4B1D07D2DE006EB9BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4876CF4A1D07D2DE006EB9BA /* omikuji_app.app */,
+				4876CF5E1D07D2DE006EB9BA /* omikuji_appTests.xctest */,
+				4876CF691D07D2DE006EB9BA /* omikuji_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4876CF4C1D07D2DE006EB9BA /* omikuji_app */ = {
+			isa = PBXGroup;
+			children = (
+				4876CF4D1D07D2DE006EB9BA /* AppDelegate.swift */,
+				4876CF4F1D07D2DE006EB9BA /* ViewController.swift */,
+				4876CF511D07D2DE006EB9BA /* Main.storyboard */,
+				4876CF541D07D2DE006EB9BA /* Assets.xcassets */,
+				4876CF561D07D2DE006EB9BA /* LaunchScreen.storyboard */,
+				4876CF591D07D2DE006EB9BA /* Info.plist */,
+			);
+			path = omikuji_app;
+			sourceTree = "<group>";
+		};
+		4876CF611D07D2DE006EB9BA /* omikuji_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				4876CF621D07D2DE006EB9BA /* omikuji_appTests.swift */,
+				4876CF641D07D2DE006EB9BA /* Info.plist */,
+			);
+			path = omikuji_appTests;
+			sourceTree = "<group>";
+		};
+		4876CF6C1D07D2DE006EB9BA /* omikuji_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4876CF6D1D07D2DE006EB9BA /* omikuji_appUITests.swift */,
+				4876CF6F1D07D2DE006EB9BA /* Info.plist */,
+			);
+			path = omikuji_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4876CF491D07D2DE006EB9BA /* omikuji_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4876CF721D07D2DE006EB9BA /* Build configuration list for PBXNativeTarget "omikuji_app" */;
+			buildPhases = (
+				4876CF461D07D2DE006EB9BA /* Sources */,
+				4876CF471D07D2DE006EB9BA /* Frameworks */,
+				4876CF481D07D2DE006EB9BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = omikuji_app;
+			productName = omikuji_app;
+			productReference = 4876CF4A1D07D2DE006EB9BA /* omikuji_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4876CF5D1D07D2DE006EB9BA /* omikuji_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4876CF751D07D2DE006EB9BA /* Build configuration list for PBXNativeTarget "omikuji_appTests" */;
+			buildPhases = (
+				4876CF5A1D07D2DE006EB9BA /* Sources */,
+				4876CF5B1D07D2DE006EB9BA /* Frameworks */,
+				4876CF5C1D07D2DE006EB9BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4876CF601D07D2DE006EB9BA /* PBXTargetDependency */,
+			);
+			name = omikuji_appTests;
+			productName = omikuji_appTests;
+			productReference = 4876CF5E1D07D2DE006EB9BA /* omikuji_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4876CF681D07D2DE006EB9BA /* omikuji_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4876CF781D07D2DE006EB9BA /* Build configuration list for PBXNativeTarget "omikuji_appUITests" */;
+			buildPhases = (
+				4876CF651D07D2DE006EB9BA /* Sources */,
+				4876CF661D07D2DE006EB9BA /* Frameworks */,
+				4876CF671D07D2DE006EB9BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4876CF6B1D07D2DE006EB9BA /* PBXTargetDependency */,
+			);
+			name = omikuji_appUITests;
+			productName = omikuji_appUITests;
+			productReference = 4876CF691D07D2DE006EB9BA /* omikuji_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4876CF421D07D2DE006EB9BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KouheiShoji;
+				TargetAttributes = {
+					4876CF491D07D2DE006EB9BA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4876CF5D1D07D2DE006EB9BA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4876CF491D07D2DE006EB9BA;
+					};
+					4876CF681D07D2DE006EB9BA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4876CF491D07D2DE006EB9BA;
+					};
+				};
+			};
+			buildConfigurationList = 4876CF451D07D2DE006EB9BA /* Build configuration list for PBXProject "omikuji_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4876CF411D07D2DE006EB9BA;
+			productRefGroup = 4876CF4B1D07D2DE006EB9BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4876CF491D07D2DE006EB9BA /* omikuji_app */,
+				4876CF5D1D07D2DE006EB9BA /* omikuji_appTests */,
+				4876CF681D07D2DE006EB9BA /* omikuji_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4876CF481D07D2DE006EB9BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4876CF581D07D2DE006EB9BA /* LaunchScreen.storyboard in Resources */,
+				4876CF551D07D2DE006EB9BA /* Assets.xcassets in Resources */,
+				4876CF531D07D2DE006EB9BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4876CF5C1D07D2DE006EB9BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4876CF671D07D2DE006EB9BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4876CF461D07D2DE006EB9BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4876CF501D07D2DE006EB9BA /* ViewController.swift in Sources */,
+				4876CF4E1D07D2DE006EB9BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4876CF5A1D07D2DE006EB9BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4876CF631D07D2DE006EB9BA /* omikuji_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4876CF651D07D2DE006EB9BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4876CF6E1D07D2DE006EB9BA /* omikuji_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4876CF601D07D2DE006EB9BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4876CF491D07D2DE006EB9BA /* omikuji_app */;
+			targetProxy = 4876CF5F1D07D2DE006EB9BA /* PBXContainerItemProxy */;
+		};
+		4876CF6B1D07D2DE006EB9BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4876CF491D07D2DE006EB9BA /* omikuji_app */;
+			targetProxy = 4876CF6A1D07D2DE006EB9BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4876CF511D07D2DE006EB9BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4876CF521D07D2DE006EB9BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4876CF561D07D2DE006EB9BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4876CF571D07D2DE006EB9BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4876CF701D07D2DE006EB9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4876CF711D07D2DE006EB9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4876CF731D07D2DE006EB9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = omikuji_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.green-minto.omikuji-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4876CF741D07D2DE006EB9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = omikuji_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.green-minto.omikuji-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4876CF761D07D2DE006EB9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = omikuji_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.green-minto.omikuji-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omikuji_app.app/omikuji_app";
+			};
+			name = Debug;
+		};
+		4876CF771D07D2DE006EB9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = omikuji_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.green-minto.omikuji-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omikuji_app.app/omikuji_app";
+			};
+			name = Release;
+		};
+		4876CF791D07D2DE006EB9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = omikuji_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.green-minto.omikuji-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = omikuji_app;
+			};
+			name = Debug;
+		};
+		4876CF7A1D07D2DE006EB9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = omikuji_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.green-minto.omikuji-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = omikuji_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4876CF451D07D2DE006EB9BA /* Build configuration list for PBXProject "omikuji_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4876CF701D07D2DE006EB9BA /* Debug */,
+				4876CF711D07D2DE006EB9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4876CF721D07D2DE006EB9BA /* Build configuration list for PBXNativeTarget "omikuji_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4876CF731D07D2DE006EB9BA /* Debug */,
+				4876CF741D07D2DE006EB9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4876CF751D07D2DE006EB9BA /* Build configuration list for PBXNativeTarget "omikuji_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4876CF761D07D2DE006EB9BA /* Debug */,
+				4876CF771D07D2DE006EB9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4876CF781D07D2DE006EB9BA /* Build configuration list for PBXNativeTarget "omikuji_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4876CF791D07D2DE006EB9BA /* Debug */,
+				4876CF7A1D07D2DE006EB9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4876CF421D07D2DE006EB9BA /* Project object */;
+}
