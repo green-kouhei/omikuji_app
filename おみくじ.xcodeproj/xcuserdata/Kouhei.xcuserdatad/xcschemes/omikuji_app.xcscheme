@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4876CF491D07D2DE006EB9BA"
-               BuildableName = "omikuji_app.app"
-               BlueprintName = "omikuji_app"
-               ReferencedContainer = "container:omikuji_app.xcodeproj">
+               BuildableName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.app"
+               BlueprintName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;"
+               ReferencedContainer = "container:&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4876CF5D1D07D2DE006EB9BA"
-               BuildableName = "omikuji_appTests.xctest"
-               BlueprintName = "omikuji_appTests"
-               ReferencedContainer = "container:omikuji_app.xcodeproj">
+               BuildableName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.xctest"
+               BlueprintName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;Tests"
+               ReferencedContainer = "container:&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4876CF681D07D2DE006EB9BA"
-               BuildableName = "omikuji_appUITests.xctest"
-               BlueprintName = "omikuji_appUITests"
-               ReferencedContainer = "container:omikuji_app.xcodeproj">
+               BuildableName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.xctest"
+               BlueprintName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;UITests"
+               ReferencedContainer = "container:&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4876CF491D07D2DE006EB9BA"
-            BuildableName = "omikuji_app.app"
-            BlueprintName = "omikuji_app"
-            ReferencedContainer = "container:omikuji_app.xcodeproj">
+            BuildableName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.app"
+            BlueprintName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;"
+            ReferencedContainer = "container:&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4876CF491D07D2DE006EB9BA"
-            BuildableName = "omikuji_app.app"
-            BlueprintName = "omikuji_app"
-            ReferencedContainer = "container:omikuji_app.xcodeproj">
+            BuildableName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.app"
+            BlueprintName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;"
+            ReferencedContainer = "container:&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4876CF491D07D2DE006EB9BA"
-            BuildableName = "omikuji_app.app"
-            BlueprintName = "omikuji_app"
-            ReferencedContainer = "container:omikuji_app.xcodeproj">
+            BuildableName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.app"
+            BlueprintName = "&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;"
+            ReferencedContainer = "container:&#x304a;&#x307f;&#x304f;&#x3057;&#x3099;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -8,10 +8,24 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
-    
+    //シェイクモーション
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if motion == UIEventSubtype.MotionShake {
+            a()
+            print("Device was shaked")
+            
+        }
+    }
+    //メインラベル
     @IBOutlet weak var my_label: UILabel!
+    //ボタン＆switch文
     @IBAction func my_button(sender: AnyObject) {
+        a()
+    }
+    
+    func a()  {
         let num = arc4random() % 8
         print(num)
         
@@ -42,6 +56,7 @@ class ViewController: UIViewController {
             break
             
         }
+        
     }
     
     override func viewDidLoad() {
@@ -53,7 +68,4 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
 }
-
