@@ -12,13 +12,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var my_label: UILabel!
     @IBAction func my_button(sender: AnyObject) {
-        let num = arc4random() % 5
+        let num = arc4random() % 8
         print(num)
         
         switch num {
         case 0:
             my_label.text = "大吉"
-            print("0大吉")
+            print("大吉")
             break
         case 1:
             my_label.text = "吉"
@@ -37,7 +37,8 @@ class ViewController: UIViewController {
             print("凶")
             break
         default:
-            print("default")
+            my_label.text = "エラー"
+            print("エラー",num)
             break
             
         }

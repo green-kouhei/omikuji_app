@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:omikuji_app.xcodeproj">
+      location = "self:/Users/Kouhei/Documents/Projects_xcode/Xcode/omikuji_app/omikuji_app.xcodeproj">
    </FileRef>
 </Workspace>
