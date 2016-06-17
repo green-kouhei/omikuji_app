@@ -29,7 +29,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var sound_button: UIButton!
     
     //ここで再生メゾット呼び出し
-    @IBOutlet weak var my_label: UILabel!
+   @IBOutlet weak var my_label: UILabel!
+    
     
     //ボタン＆switch文
     @IBAction func my_button(sender: AnyObject) {
