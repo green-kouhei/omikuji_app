@@ -11,16 +11,25 @@ import AVFoundation
 import Social
 
 class ViewController2: UIViewController {
-
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do view setup here.
-//    }
+    
+    var today_luck:String = "error"
+    
+    //    my_label.text=sendText
+    
+    
+    
+    @IBOutlet weak var my_label: UILabel!
+    
+    @IBAction func tweet_button(sender: AnyObject) {
+        result_tweet()
+        
+    }
+    
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        my_label.text=today_luck
         
     }
     
@@ -28,6 +37,30 @@ class ViewController2: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    func result_tweet(){
+        // availability check
+        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) {
+            
+            // snsの種類を定義
+            let controller = SLComposeViewController(forServiceType: SLServiceTypeTwitter)//SNSの種類
+            
+            // リンク追加
+            //let link: String = "http://www.apple.com"
+            //let url = NSURL(string: link)
+            //controller.addURL(url)
+            
+            // テキスト追加
+            let title: String = ("今日の運勢は\(today_luck)でした")//これ取る
+            controller.setInitialText(title)
+            
+            // tweet画面を表示
+            presentViewController(controller, animated: true, completion: {})
+        }else{
+            print("エラー")
+        }
+        
+    }
     
 }
