@@ -10,8 +10,6 @@ import UIKit
 import AVFoundation
 import Social
 
-
-
 class ViewController: UIViewController {
     
     var audioPlayer:AVAudioPlayer!
@@ -27,9 +25,9 @@ class ViewController: UIViewController {
     }
     //サウンドボタン
     @IBOutlet weak var sound_button: UIButton!
-    
     //ここで再生メゾット呼び出し
-   @IBOutlet weak var my_label: UILabel!
+   //@IBOutlet weak var my_label: UILabel!
+    @IBOutlet weak var my_label: UILabel!
     
     
     //ボタン＆switch文
@@ -38,9 +36,13 @@ class ViewController: UIViewController {
     }
     
     //結果をtweet
+//    @IBAction func tweet_button(sender: AnyObject) {
+//        result_tweet()
+//    }
     @IBAction func tweet_button(sender: AnyObject) {
-        result_tweet()
+    result_tweet()
     }
+    
     
     
     override func viewDidLoad() {
@@ -87,7 +89,7 @@ class ViewController: UIViewController {
             
         }
         //結果をtweet用変数に設定
-        today_luck=my_label.text!
+        //today_luck=my_label.text!
         
     }
     
