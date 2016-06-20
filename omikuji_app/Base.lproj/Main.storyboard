@@ -57,7 +57,7 @@
         <!--View Controller_second-->
         <scene sceneID="ge7-bG-KXJ">
             <objects>
-                <viewController id="Zkg-AQ-2vk" userLabel="View Controller_second" customClass="ViewController" customModule="おみくし_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zkg-AQ-2vk" userLabel="View Controller_second" customClass="ViewController2" customModule="おみくし_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QeI-Zn-pab"/>
                         <viewControllerLayoutGuide type="bottom" id="AbF-Gm-GPn"/>
@@ -118,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="puz-Iu-Iko" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="-9"/>
+            <point key="canvasLocation" x="56" y="-75"/>
         </scene>
     </scenes>
     <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

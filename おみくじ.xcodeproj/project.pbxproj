@@ -15,6 +15,7 @@
 		4876CF581D07D2DE006EB9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4876CF561D07D2DE006EB9BA /* LaunchScreen.storyboard */; };
 		4876CF631D07D2DE006EB9BA /* omikuji_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF621D07D2DE006EB9BA /* omikuji_appTests.swift */; };
 		4876CF6E1D07D2DE006EB9BA /* omikuji_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF6D1D07D2DE006EB9BA /* omikuji_appUITests.swift */; };
+		48E00A061D17E4EA0094733B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E00A051D17E4EA0094733B /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4876CF691D07D2DE006EB9BA /* おみくじ.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "おみくじ.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4876CF6D1D07D2DE006EB9BA /* omikuji_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikuji_appUITests.swift; sourceTree = "<group>"; };
 		4876CF6F1D07D2DE006EB9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E00A051D17E4EA0094733B /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4876CF541D07D2DE006EB9BA /* Assets.xcassets */,
 				4876CF561D07D2DE006EB9BA /* LaunchScreen.storyboard */,
 				4876CF591D07D2DE006EB9BA /* Info.plist */,
+				48E00A051D17E4EA0094733B /* ViewController2.swift */,
 			);
 			path = omikuji_app;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				4876CF501D07D2DE006EB9BA /* ViewController.swift in Sources */,
 				4876CF4E1D07D2DE006EB9BA /* AppDelegate.swift in Sources */,
+				48E00A061D17E4EA0094733B /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

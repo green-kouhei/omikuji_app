@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     //サウンドボタン
     @IBOutlet weak var sound_button: UIButton!
     //ここで再生メゾット呼び出し
-   //@IBOutlet weak var my_label: UILabel!
+    
     @IBOutlet weak var my_label: UILabel!
     
     
@@ -36,11 +36,11 @@ class ViewController: UIViewController {
     }
     
     //結果をtweet
-//    @IBAction func tweet_button(sender: AnyObject) {
-//        result_tweet()
-//    }
+    //    @IBAction func tweet_button(sender: AnyObject) {
+    //        result_tweet()
+    //    }
     @IBAction func tweet_button(sender: AnyObject) {
-    result_tweet()
+        result_tweet()
     }
     
     
@@ -63,26 +63,26 @@ class ViewController: UIViewController {
         print(num)
         
         switch num {
-        case 0:
-            my_label.text = "大吉"
-            print("大吉")
-            break
-        case 1:
-            my_label.text = "吉"
-            print("吉")
-            break
-        case 2:
-            my_label.text = "小吉"
-            print("小吉")
-            break
-        case 3:
-            my_label.text = "中吉"
-            print("中吉")
-            break
-        case 4:
-            my_label.text = "凶"
-            print("凶")
-            break
+//        case 0:
+//            my_label.text = "大吉"
+//            print("大吉")
+//            break
+//        case 1:
+//            my_label.text = "吉"
+//            print("吉")
+//            break
+//        case 2:
+//            my_label.text = "小吉"
+//            print("小吉")
+//            break
+//        case 3:
+//            my_label.text = "中吉"
+//            print("中吉")
+//            break
+//        case 4:
+//            my_label.text = "凶"
+//            print("凶")
+//            break
         default:
             print("エラー",num)
             break
