@@ -20,11 +20,11 @@ class ViewController: UIViewController {
     //シェイクモーション
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if motion == UIEventSubtype.MotionShake {
-            a()
             print("Device was shaked")
             
         }
     }
+    
     //サウンドボタン
     @IBOutlet weak var sound_button: UIButton!
     
@@ -70,6 +70,18 @@ class ViewController: UIViewController {
             result = "凶"
             print("凶")
             break
+        case 5:
+            result = "大凶"
+            print("大凶")
+            break
+        case 6:
+            result = "いい感じ"
+            print("いい感じ")
+            break
+        case 7:
+            result = "ダメダメ"
+            print("ダメダメ")
+            break
         default:
             print("エラー",num)
             break
@@ -82,7 +94,7 @@ class ViewController: UIViewController {
     //次のViewに受け渡し
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
             //複数画面用IDでどの画面に渡すか判断
-        if (segue.identifier == "result_screen") {
+        //if (segue.identifier == "result_screen") {
             // SecondViewControllerクラスをインスタンス化してsegue（画面遷移）で値を渡せるようにバンドルする
             let secondView : ViewController2 = segue.destinationViewController as! ViewController2
             // secondView（バンドルされた変数）に受け取り用の変数を引数とし_paramを渡す（_paramには渡したい値）
@@ -90,6 +102,6 @@ class ViewController: UIViewController {
             secondView.today_luck = result
         }
         
-    }
+  //  }
 }
 
