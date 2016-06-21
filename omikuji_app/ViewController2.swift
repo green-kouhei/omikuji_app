@@ -10,6 +10,9 @@ import UIKit
 import AVFoundation
 import Social
 
+
+//ViewController2.swift
+
 class ViewController2: UIViewController {
     
     var today_luck:String = "error"
@@ -29,6 +32,7 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        //受け取り
         my_label.text=today_luck
         
     }

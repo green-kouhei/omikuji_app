@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		482BCC561D1929BE00051639 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482BCC551D1929BE00051639 /* ViewController3.swift */; };
 		484C601C1D0D1EC300DCDC7E /* drug-iron2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484C601B1D0D1EC300DCDC7E /* drug-iron2.mp3 */; };
 		4876CF4E1D07D2DE006EB9BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF4D1D07D2DE006EB9BA /* AppDelegate.swift */; };
 		4876CF501D07D2DE006EB9BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF4F1D07D2DE006EB9BA /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		482BCC551D1929BE00051639 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController3.swift; path = ../ViewController3.swift; sourceTree = "<group>"; };
 		484C601B1D0D1EC300DCDC7E /* drug-iron2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "drug-iron2.mp3"; sourceTree = "<group>"; };
 		4876CF4A1D07D2DE006EB9BA /* おみくじ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "おみくじ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4876CF4D1D07D2DE006EB9BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,11 +106,12 @@
 				484C601B1D0D1EC300DCDC7E /* drug-iron2.mp3 */,
 				4876CF4D1D07D2DE006EB9BA /* AppDelegate.swift */,
 				4876CF4F1D07D2DE006EB9BA /* ViewController.swift */,
+				48E00A051D17E4EA0094733B /* ViewController2.swift */,
+				482BCC551D1929BE00051639 /* ViewController3.swift */,
 				4876CF511D07D2DE006EB9BA /* Main.storyboard */,
 				4876CF541D07D2DE006EB9BA /* Assets.xcassets */,
 				4876CF561D07D2DE006EB9BA /* LaunchScreen.storyboard */,
 				4876CF591D07D2DE006EB9BA /* Info.plist */,
-				48E00A051D17E4EA0094733B /* ViewController2.swift */,
 			);
 			path = omikuji_app;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				4876CF501D07D2DE006EB9BA /* ViewController.swift in Sources */,
 				4876CF4E1D07D2DE006EB9BA /* AppDelegate.swift in Sources */,
+				482BCC561D1929BE00051639 /* ViewController3.swift in Sources */,
 				48E00A061D17E4EA0094733B /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

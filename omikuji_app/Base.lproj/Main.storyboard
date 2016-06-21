@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="おみくし_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Segue1" id="BYZ-38-t0r" customClass="ViewController" customModule="おみくし_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -37,7 +37,7 @@
                                 </state>
                                 <connections>
                                     <action selector="my_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nVF-i4-yaK"/>
-                                    <segue destination="Zkg-AQ-2vk" kind="modal" identifier="screen" id="CnX-yw-uvp"/>
+                                    <segue destination="kvY-YK-jbc" kind="modal" id="dPF-Ou-N2m"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,15 +49,50 @@
                             <constraint firstAttribute="bottomMargin" secondItem="fXA-wH-CpE" secondAttribute="bottom" constant="100" id="zK3-Fv-Qus"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-449" y="-9"/>
+            <point key="canvasLocation" x="-837" y="-297"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="vCA-MZ-cfV">
+            <objects>
+                <viewController storyboardIdentifier="Segue2" id="kvY-YK-jbc" customClass="ViewController3" customModule="おみくし_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N14-Re-QhH"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZkS-i5-JC1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yc9-WP-bTG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="シェイク" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ki6-CP-WdE">
+                                <rect key="frame" x="126" y="273.5" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ki6-CP-WdE" firstAttribute="centerX" secondItem="yc9-WP-bTG" secondAttribute="centerX" id="UP1-Lk-46x"/>
+                            <constraint firstItem="ki6-CP-WdE" firstAttribute="centerY" secondItem="yc9-WP-bTG" secondAttribute="centerY" id="khP-Rb-9Fv"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="Zkg-AQ-2vk" kind="modal" identifier="Segue3" id="dfk-xt-P2u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kfH-4w-FHL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-450" y="-297"/>
         </scene>
         <!--View Controller_second-->
         <scene sceneID="ge7-bG-KXJ">
             <objects>
-                <viewController id="Zkg-AQ-2vk" userLabel="View Controller_second" customClass="ViewController2" customModule="おみくし_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Segue3" id="Zkg-AQ-2vk" userLabel="View Controller_second" customClass="ViewController2" customModule="おみくし_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QeI-Zn-pab"/>
                         <viewControllerLayoutGuide type="bottom" id="AbF-Gm-GPn"/>
@@ -87,7 +122,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="Evc-Tv-ICe"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="xkD-UF-mcj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMN-rg-AP8">
@@ -117,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="puz-Iu-Iko" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="56" y="-75"/>
+            <point key="canvasLocation" x="-66" y="-297"/>
         </scene>
     </scenes>
     <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
