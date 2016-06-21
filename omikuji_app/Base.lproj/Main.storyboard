@@ -101,16 +101,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fES-6X-ehq">
-                                <rect key="frame" x="77.5" y="440" width="165" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="結果をtweet">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="tweet_button:" destination="Zkg-AQ-2vk" eventType="touchUpInside" id="32W-EE-Bin"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aot-OM-Shk">
                                 <rect key="frame" x="16" y="28" width="46" height="30"/>
                                 <constraints>
@@ -133,15 +123,27 @@
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="shadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fES-6X-ehq">
+                                <rect key="frame" x="125" y="414" width="70" height="134"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
+                                <state key="normal" title="結果をtweet" image="social-003-round_twitter.png">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tweet_button:" destination="Zkg-AQ-2vk" eventType="touchUpInside" id="32W-EE-Bin"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="OMN-rg-AP8" firstAttribute="centerX" secondItem="S9n-Zz-zG3" secondAttribute="centerX" id="4JI-fa-aGf"/>
                             <constraint firstItem="aot-OM-Shk" firstAttribute="top" secondItem="QeI-Zn-pab" secondAttribute="bottom" constant="8" id="5rD-e3-7Gn"/>
+                            <constraint firstItem="fES-6X-ehq" firstAttribute="top" secondItem="OMN-rg-AP8" secondAttribute="bottom" constant="10" id="QP7-Lh-xpk"/>
                             <constraint firstItem="aot-OM-Shk" firstAttribute="leading" secondItem="S9n-Zz-zG3" secondAttribute="leadingMargin" id="SYx-Em-HuC"/>
-                            <constraint firstItem="fES-6X-ehq" firstAttribute="centerX" secondItem="S9n-Zz-zG3" secondAttribute="centerX" id="c2h-P8-tKy"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="fES-6X-ehq" secondAttribute="bottom" constant="20" id="WfF-2h-W35"/>
                             <constraint firstItem="OMN-rg-AP8" firstAttribute="centerY" secondItem="S9n-Zz-zG3" secondAttribute="centerY" id="iuj-yG-bDS"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="fES-6X-ehq" secondAttribute="bottom" constant="80" id="nB1-MU-ZxF"/>
+                            <constraint firstItem="fES-6X-ehq" firstAttribute="centerX" secondItem="S9n-Zz-zG3" secondAttribute="centerX" id="u7O-xN-xDT"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pBK-0x-67B"/>
@@ -152,8 +154,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="puz-Iu-Iko" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-66" y="-297"/>
+            <point key="canvasLocation" x="-69" y="-321"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="social-003-round_twitter.png" width="64" height="64"/>
+    </resources>
     <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
