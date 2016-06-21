@@ -19,33 +19,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日の運勢は..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw2-hZ-Q0T">
-                                <rect key="frame" x="23" y="30" width="273.5" height="48"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="24" y="30" width="272" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXA-wH-CpE">
                                 <rect key="frame" x="110" y="396" width="100" height="72"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="占う">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="my_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nVF-i4-yaK"/>
                                     <segue destination="kvY-YK-jbc" kind="modal" id="dPF-Ou-N2m"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="神社_0621.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zus-wA-zs4">
+                                <rect key="frame" x="16" y="28" width="288" height="548"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fXA-wH-CpE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BVo-3g-cuH"/>
                             <constraint firstItem="Iw2-hZ-Q0T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="30" id="HYg-dl-bM7"/>
+                            <constraint firstItem="Zus-wA-zs4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="I07-cH-B0N"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Zus-wA-zs4" secondAttribute="bottom" constant="-8" id="KeH-0v-rSf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zus-wA-zs4" secondAttribute="trailing" constant="-4" id="MPT-nx-aXf"/>
                             <constraint firstItem="Iw2-hZ-Q0T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tht-IE-fiI"/>
+                            <constraint firstItem="Zus-wA-zs4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="eiB-Cf-Rmn"/>
                             <constraint firstAttribute="bottomMargin" secondItem="fXA-wH-CpE" secondAttribute="bottom" constant="100" id="zK3-Fv-Qus"/>
                         </constraints>
                     </view>
@@ -68,8 +73,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="シェイク" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ki6-CP-WdE">
-                                <rect key="frame" x="126" y="273.5" width="68" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="100" y="267" width="120" height="34.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -101,6 +106,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fES-6X-ehq">
+                                <rect key="frame" x="125" y="295.5" width="70" height="252.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
+                                <state key="normal" title="結果をtweet" image="social-003-round_twitter.png">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tweet_button:" destination="Zkg-AQ-2vk" eventType="touchUpInside" id="32W-EE-Bin"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aot-OM-Shk">
                                 <rect key="frame" x="16" y="28" width="46" height="30"/>
                                 <constraints>
@@ -115,34 +131,25 @@
                                     <segue destination="BYZ-38-t0r" kind="modal" id="xkD-UF-mcj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMN-rg-AP8">
-                                <rect key="frame" x="13" y="164" width="294" height="240"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMN-rg-AP8">
+                                <rect key="frame" x="16" y="226" width="288" height="117.5"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="100"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="shadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fES-6X-ehq">
-                                <rect key="frame" x="125" y="414" width="70" height="134"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
-                                <state key="normal" title="結果をtweet" image="social-003-round_twitter.png">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="tweet_button:" destination="Zkg-AQ-2vk" eventType="touchUpInside" id="32W-EE-Bin"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="OMN-rg-AP8" firstAttribute="centerX" secondItem="S9n-Zz-zG3" secondAttribute="centerX" id="4JI-fa-aGf"/>
                             <constraint firstItem="aot-OM-Shk" firstAttribute="top" secondItem="QeI-Zn-pab" secondAttribute="bottom" constant="8" id="5rD-e3-7Gn"/>
+                            <constraint firstItem="OMN-rg-AP8" firstAttribute="centerX" secondItem="S9n-Zz-zG3" secondAttribute="centerX" id="QDa-xi-lWh"/>
                             <constraint firstItem="fES-6X-ehq" firstAttribute="top" secondItem="OMN-rg-AP8" secondAttribute="bottom" constant="10" id="QP7-Lh-xpk"/>
                             <constraint firstItem="aot-OM-Shk" firstAttribute="leading" secondItem="S9n-Zz-zG3" secondAttribute="leadingMargin" id="SYx-Em-HuC"/>
+                            <constraint firstItem="OMN-rg-AP8" firstAttribute="centerY" secondItem="S9n-Zz-zG3" secondAttribute="centerY" id="TCG-6Y-5AF"/>
                             <constraint firstAttribute="bottomMargin" secondItem="fES-6X-ehq" secondAttribute="bottom" constant="20" id="WfF-2h-W35"/>
-                            <constraint firstItem="OMN-rg-AP8" firstAttribute="centerY" secondItem="S9n-Zz-zG3" secondAttribute="centerY" id="iuj-yG-bDS"/>
+                            <constraint firstItem="OMN-rg-AP8" firstAttribute="leading" secondItem="S9n-Zz-zG3" secondAttribute="leadingMargin" id="kME-Zh-doB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OMN-rg-AP8" secondAttribute="trailing" id="sba-7d-ayg"/>
                             <constraint firstItem="fES-6X-ehq" firstAttribute="centerX" secondItem="S9n-Zz-zG3" secondAttribute="centerX" id="u7O-xN-xDT"/>
                         </constraints>
                     </view>
@@ -159,6 +166,7 @@
     </scenes>
     <resources>
         <image name="social-003-round_twitter.png" width="64" height="64"/>
+        <image name="神社_0621.png" width="640" height="1136"/>
     </resources>
     <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>

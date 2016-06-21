@@ -34,6 +34,7 @@ class ViewController2: UIViewController {
         super.viewDidLoad()
         //受け取り
         my_label.text=today_luck
+        my_label.adjustsFontSizeToFitWidth=true
         
     }
     

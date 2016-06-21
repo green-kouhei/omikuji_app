@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		482BCC561D1929BE00051639 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482BCC551D1929BE00051639 /* ViewController3.swift */; };
-		482BCC591D1936A000051639 /* TwitterLogo_#55acee.eps in Resources */ = {isa = PBXBuildFile; fileRef = 482BCC571D1936A000051639 /* TwitterLogo_#55acee.eps */; };
-		482BCC5A1D1936A000051639 /* TwitterLogo_#55acee.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BCC581D1936A000051639 /* TwitterLogo_#55acee.png */; };
-		482BCC5C1D193A8300051639 /* social-003_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BCC5B1D193A8300051639 /* social-003_twitter.png */; };
-		482BCC5E1D193B6000051639 /* social-003-round_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BCC5D1D193B6000051639 /* social-003-round_twitter.png */; };
+		482BCC641D1957FE00051639 /* social-003-round_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BCC631D1957FE00051639 /* social-003-round_twitter.png */; };
+		482BCC661D196FD100051639 /* 神社_0621.png in Resources */ = {isa = PBXBuildFile; fileRef = 482BCC651D196FD100051639 /* 神社_0621.png */; };
 		484C601C1D0D1EC300DCDC7E /* drug-iron2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484C601B1D0D1EC300DCDC7E /* drug-iron2.mp3 */; };
 		4876CF4E1D07D2DE006EB9BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF4D1D07D2DE006EB9BA /* AppDelegate.swift */; };
 		4876CF501D07D2DE006EB9BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876CF4F1D07D2DE006EB9BA /* ViewController.swift */; };
@@ -42,10 +40,8 @@
 
 /* Begin PBXFileReference section */
 		482BCC551D1929BE00051639 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController3.swift; path = ../ViewController3.swift; sourceTree = "<group>"; };
-		482BCC571D1936A000051639 /* TwitterLogo_#55acee.eps */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TwitterLogo_#55acee.eps"; path = "../../../../../Downloads/brand guideline logos/TwitterLogo_#55acee.eps"; sourceTree = "<group>"; };
-		482BCC581D1936A000051639 /* TwitterLogo_#55acee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TwitterLogo_#55acee.png"; path = "../../../../../Downloads/brand guideline logos/TwitterLogo_#55acee.png"; sourceTree = "<group>"; };
-		482BCC5B1D193A8300051639 /* social-003_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "social-003_twitter.png"; path = "../../../../../Downloads/social/PNG/32/social-003_twitter.png"; sourceTree = "<group>"; };
-		482BCC5D1D193B6000051639 /* social-003-round_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "social-003-round_twitter.png"; path = "../../../../../Downloads/social/PNG/64/social-003-round_twitter.png"; sourceTree = "<group>"; };
+		482BCC631D1957FE00051639 /* social-003-round_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "social-003-round_twitter.png"; path = "../../../素材/app/アイコン/social/PNG/64/social-003-round_twitter.png"; sourceTree = "<group>"; };
+		482BCC651D196FD100051639 /* 神社_0621.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "神社_0621.png"; path = "../../../素材/app/picture/神社_0621.png"; sourceTree = "<group>"; };
 		484C601B1D0D1EC300DCDC7E /* drug-iron2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "drug-iron2.mp3"; sourceTree = "<group>"; };
 		4876CF4A1D07D2DE006EB9BA /* おみくじ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "おみくじ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4876CF4D1D07D2DE006EB9BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +87,8 @@
 		4876CF411D07D2DE006EB9BA = {
 			isa = PBXGroup;
 			children = (
+				482BCC651D196FD100051639 /* 神社_0621.png */,
+				482BCC631D1957FE00051639 /* social-003-round_twitter.png */,
 				4876CF4C1D07D2DE006EB9BA /* omikuji_app */,
 				4876CF611D07D2DE006EB9BA /* omikuji_appTests */,
 				4876CF6C1D07D2DE006EB9BA /* omikuji_appUITests */,
@@ -117,10 +115,6 @@
 				48E00A051D17E4EA0094733B /* ViewController2.swift */,
 				482BCC551D1929BE00051639 /* ViewController3.swift */,
 				4876CF511D07D2DE006EB9BA /* Main.storyboard */,
-				482BCC5D1D193B6000051639 /* social-003-round_twitter.png */,
-				482BCC5B1D193A8300051639 /* social-003_twitter.png */,
-				482BCC571D1936A000051639 /* TwitterLogo_#55acee.eps */,
-				482BCC581D1936A000051639 /* TwitterLogo_#55acee.png */,
 				4876CF541D07D2DE006EB9BA /* Assets.xcassets */,
 				4876CF561D07D2DE006EB9BA /* LaunchScreen.storyboard */,
 				4876CF591D07D2DE006EB9BA /* Info.plist */,
@@ -251,13 +245,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				482BCC5C1D193A8300051639 /* social-003_twitter.png in Resources */,
-				482BCC5E1D193B6000051639 /* social-003-round_twitter.png in Resources */,
+				482BCC661D196FD100051639 /* 神社_0621.png in Resources */,
 				4876CF581D07D2DE006EB9BA /* LaunchScreen.storyboard in Resources */,
 				484C601C1D0D1EC300DCDC7E /* drug-iron2.mp3 in Resources */,
-				482BCC5A1D1936A000051639 /* TwitterLogo_#55acee.png in Resources */,
 				4876CF551D07D2DE006EB9BA /* Assets.xcassets in Resources */,
-				482BCC591D1936A000051639 /* TwitterLogo_#55acee.eps in Resources */,
+				482BCC641D1957FE00051639 /* social-003-round_twitter.png in Resources */,
 				4876CF531D07D2DE006EB9BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
